@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Tea & Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TC <span class="logo-icon">☕</span></div>
+        <nav>
+            <a href="#green-tea">Green Tea</a>
+            <a href="#black-tea">Black Tea</a>
+            <a href="#herbal-blends">Herbal Blends</a>
+            <a href="#coffee-beans">Coffee Beans</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="green-tea" class="product-category">
+            <h2>Green Tea</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="img/green-tea.jpg" alt="Green Tea">
+                    <h3>Organic Green Tea</h3>
+                    <p>$12.99</p>
+                    <button onclick="addToCart('Organic Green Tea', 12.99)">Add to Cart</button>
+                </div>
+                <!-- Add more green tea products here -->
+            </div>
+        </section>
+
+        <section id="black-tea" class="product-category">
+            <h2>Black Tea</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="img/black-tea.jpg" alt="Black Tea">
+                    <h3>Premium Black Tea</h3>
+                    <p>$14.99</p>
+                    <button onclick="addToCart('Premium Black Tea', 14.99)">Add to Cart</button>
+                </div>
+                <!-- Add more black tea products here -->
+            </div>
+        </section>
+
+        <!-- Add other categories here, like Herbal Blends and Coffee Beans -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Organic Tea & Coffee. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
